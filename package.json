@@ -1,0 +1,22 @@
+{
+  "name": "dxy-crash-cordova-plugin",
+  "version": "1.0.0",
+  "description": "save crash info to log file.",
+  "cordova": {
+    "id": "dxy-crash-cordova-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cordova",
+    "crash",
+    "log"
+  ],
+  "author": "dxy",
+  "license": "MIT"
+}

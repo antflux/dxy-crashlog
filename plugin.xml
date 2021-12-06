@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="dxy-crash-cordova-plugin" version="1.0.0"
+  xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>CrashLog</name>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="CrashLog">
+        <param name="android-package" value="cn.dxy.crash.CrashLogPlugin" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+    <config-file parent="/manifest" target="AndroidManifest.xml">
+      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    </config-file>
+    <source-file src="src/android/cn/dxy/crash/CrashLogPlugin.java" target-dir="src/dxy/shuto/crash" />
+  </platform>
+</plugin>
