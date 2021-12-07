@@ -21,7 +21,7 @@ public class CrashLogPlugin extends CordovaPlugin {
     public void initialize(CordovaInterface cordova, CordovaWebView webView) {
         super.initialize(cordova, webView);
         Context context = cordova.getActivity().getApplicationContext();
-        UMConfigure.init(context, "61a9b41be014255fcb9ac58f", "Umeng", UMConfigure.DEVICE_TYPE_PHONE,
+        UMConfigure.init(context, "umen-key", "Umeng", UMConfigure.DEVICE_TYPE_PHONE,
             "");
     }
 
