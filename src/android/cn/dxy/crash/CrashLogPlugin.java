@@ -2,6 +2,7 @@ package cn.dxy.crash;
 
 
 import android.Manifest;
+import android.content.Context;
 import com.umeng.commonsdk.UMConfigure;
 import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
