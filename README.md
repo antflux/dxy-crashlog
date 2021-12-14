@@ -6,7 +6,7 @@
 
 
 
-cordova plugin add https://code.giterlab.com/scm/dxyap/dxy-crashlog.git
+cordova plugin add https://github.com/jonsonlion/dxy-crashlog.git
 
 build.gradle 增加配置
 ``` java
